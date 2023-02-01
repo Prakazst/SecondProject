@@ -29,7 +29,7 @@ public class ScrollUpAndDown {
 		
 		//Close the browser
 		
-		driver.close();
+		driver.quit();
 		
 		
 
