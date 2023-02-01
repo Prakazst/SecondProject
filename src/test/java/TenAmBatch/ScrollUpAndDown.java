@@ -27,6 +27,10 @@ public class ScrollUpAndDown {
 		
 		jse.executeScript("arguments[0].scrollIntoView(true)", downLandMark);
 		
+		//Close the browser
+		
+		driver.close();
+		
 		
 
 	}
